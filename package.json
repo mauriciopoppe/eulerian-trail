@@ -1,6 +1,6 @@
 {
   "name": "eulerian-trail",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Finds an Eulerian trail of a graph",
   "bugs": "https://github.com/maurizzzio/eulerian-trail/issues",
   "license": "MIT",
@@ -22,8 +22,7 @@
     "trail",
     "circuit"
   ],
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "coveralls": "^2.11.2",
     "mocha-lcov-reporter": "^0.0.2",
