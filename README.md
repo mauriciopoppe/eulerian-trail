@@ -44,13 +44,13 @@ eulerianTrail({
 
 ### `eulerianTrail(options)`
 
-** params **
+**params**
 
 - `options.edges` {Array[]} (required) An array of arrays, each subarray describes an edge in the graph, the edge
 must have two primitive elements (numbers and strings are allowed)
 - `options.directed=false` {boolean} True to denote the edges as directed, by default all the edges are undirected   
 
-** throws **
+**throws**
 
 The function throws whenever:
 
