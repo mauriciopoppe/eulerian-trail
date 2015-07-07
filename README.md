@@ -42,6 +42,7 @@ eulerianTrail({
 });
 
 // output
+// note that the output is reversed from what is shown on the gif
 // [ 0, 1, 2, 3, 6, 7, 10, 8, 5, 6, 1, 3, 4, 5, 7, 8, 9, 10, 0 ]
 ```
 
