@@ -12,7 +12,7 @@
 $ npm install --save eulerian-trail
 ```
 
-<img src="https://lh6.googleusercontent.com/pI46KMs_lwRlTHKFM5NeBIzhEg5rRrc-g3UDrNTEFo0sEhAoC6sxxwGw1AqEf5Scz9yu1g=w2560-h1962">
+<img src="https://lh4.googleusercontent.com/NRxgpMQ3d5YWIBa7YmS_czDPu37T39uYQqoTE3AecgckiEDmm3XZ-02Zg4qF3Nbx4TCeZQ=w2560-h1962">
 
 ## Usage
 
