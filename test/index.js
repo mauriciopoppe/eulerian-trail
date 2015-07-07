@@ -12,6 +12,7 @@ describe('eulerianTrail', function () {
         [0, 1]
       ]
     });
+    assert.deepEqual(trail, [1, 0]);
     assert(trail.length === 2);
 
     trail = eulerianTrail({

@@ -12,6 +12,8 @@
 $ npm install --save eulerian-trail
 ```
 
+<img src="https://drive.google.com/file/d/0B4UwDRGkGhjacC1yT0hidHpYMzg/view?usp=sharing">
+
 ## Usage
 
 ```js
@@ -38,6 +40,9 @@ eulerianTrail({
     [1, 6]
   ]
 });
+
+// output
+// [ 0, 1, 2, 3, 6, 7, 10, 8, 5, 6, 1, 3, 4, 5, 7, 8, 9, 10, 0 ]
 ```
 
 ## API
@@ -60,6 +65,10 @@ The function throws whenever:
   for each vertex for each vertex the difference between its incoming degrees and outgoing degrees is 0
   except for 2 vertices whose difference is −1 (start) and +1 (end)
 - the trail found doesn't contain all the edges provided in the input
+
+**returns** {Array}
+
+The eulerian trail from a valid start vertex, each pair of contiguous elements in the output denotes an edge  
 
 ## License
 
