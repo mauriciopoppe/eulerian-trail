@@ -1,0 +1,42 @@
+{
+  "name": "eulerian-trail",
+  "version": "0.0.0",
+  "description": "Finds an Eulerian trail of a graph",
+  "bugs": "https://github.com/maurizzzio/eulerian-trail/issues",
+  "license": "MIT",
+  "main": "index.js",
+  "author": "Mauricio Poppe <mauricio.poppe@gmail.com>",
+  "files": [
+    "index.js",
+    "lib",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maurizzzio/eulerian-trail"
+  },
+  "keywords": [
+    "eulerian-trail",
+    "graph",
+    "eulerian",
+    "trail",
+    "circuit"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.2",
+    "mocha-lcov-reporter": "^0.0.2",
+    "istanbul": "^0.3.8",
+    "nodemon": "^1.3.7",
+    "eslint": "^0.21.0",
+    "mocha": "^2.2.1"
+  },
+  "scripts": {
+    "istanbul": "istanbul cover _mocha --report lcovonly -- -R spec test/",
+    "lint": "eslint index.js lib test",
+    "test": "mocha -R spec test/",
+    "test:watch": "nodemon --watch lib --watch test --watch index.js --exec 'npm test'",
+    "start": "npm run test:watch"
+  }
+}
