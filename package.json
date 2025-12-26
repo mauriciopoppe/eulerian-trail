@@ -2,10 +2,10 @@
   "name": "eulerian-trail",
   "version": "0.1.0",
   "description": "Finds an Eulerian trail of a graph",
-  "bugs": "https://github.com/maurizzzio/eulerian-trail/issues",
+  "bugs": "https://github.com/mauriciopoppe/eulerian-trail/issues",
   "license": "MIT",
   "main": "index.js",
-  "author": "Mauricio Poppe",
+  "author": "Mauricio Poppe (https://mauriciopoppe.com)",
   "files": [
     "index.js",
     "lib",
@@ -13,7 +13,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/maurizzzio/eulerian-trail"
+    "url": "https://github.com/mauriciopoppe/eulerian-trail"
   },
   "keywords": [
     "eulerian-trail",
